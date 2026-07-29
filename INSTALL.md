@@ -19,7 +19,7 @@ Wykonaj moduły po kolei. Szczegóły każdego w `moduly/`:
 | **M0 — Rozpoznanie** | (poniżej) | wiesz, kto przed Tobą i co już ma | 5 min |
 | **M1 — Onboarding** | `moduly/M1-onboarding.md` | tożsamość: `<Imie>.md`, `SOUL.md`, zasady | 15–20 min |
 | **M2 — Migracja** | `moduly/M2-migracja.md` | istniejący setup zarchiwizowany i zintegrowany | 10–60 min |
-| **M3 — Skille** | `moduly/M3-skille.md` | 4 bazowe skille działają | 10 min |
+| **M3 — Skille** | `moduly/M3-skille.md` | 4 skille rdzenia + dobrane wywiadem z katalogu | 10–15 min |
 | **M4 — Samouczenie** | `moduly/M4-samouczenie.md` | reguły pamięci wpisane, mechanizmy aktywne | 5 min |
 | **Test końcowy** | (poniżej) | świeża sesja zdaje 3 pytania kontrolne | 5 min |
 

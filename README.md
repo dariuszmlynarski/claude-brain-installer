@@ -8,7 +8,7 @@ Nie musisz być techniczny. Instalację prowadzi sam Claude — Ty odpowiadasz n
 
 - **Katalog-mózg** — zwykłe pliki `.md` w jednym folderze: tożsamość, pamięć, stan bieżący.
 - **Migrację bez strat** — jeśli już masz jakiś setup (CLAUDE.md, notatki, pamięci), instalator go rozpozna i przeniesie. **Żelazna zasada: nic nie ginie.**
-- **Bazowe skille** — otwarcie dnia (`/briefing`), zamknięcie dnia (`/daily-summary`), porządkowanie pamięci (`/memory-dream`), radar automatyzacji (`/skill-scout`).
+- **Bazowe skille** — otwarcie dnia (`/briefing`), zamknięcie dnia (`/daily-summary`), porządkowanie pamięci (`/memory-dream`), radar automatyzacji (`/skill-scout`) + **katalog opcjonalny dobierany wywiadem** („jakie skille by Ci się przydały?"): `/grill-me`, `/inbox-review`, `/new-project`, `/dev-compound`.
 - **Samouczenie** — system sam proponuje, co zapamiętać, i sam sprząta swoją pamięć.
 
 ## Wymagania
