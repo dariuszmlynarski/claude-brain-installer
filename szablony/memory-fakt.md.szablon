@@ -1,0 +1,10 @@
+---
+name: <krotki-slug-bez-polskich-znakow>
+description: <jedno zdanie — po czym poznać, że ten fakt jest potrzebny>
+type: user | feedback | client | reference
+---
+
+<Treść faktu. Dla typu feedback dodaj:>
+
+**Why:** <dlaczego tak>
+**How to apply:** <jak stosować w praktyce>

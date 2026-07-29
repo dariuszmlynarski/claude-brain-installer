@@ -1,0 +1,5 @@
+# MEMORY — indeks pamięci
+> Jedna linia per fakt. Treść w memory/<slug>.md. Ten plik ładuje się co sesję — trzymaj go chudym.
+
+## Fakty
+<!-- - [tytuł](memory/slug.md) — jednozdaniowy hook -->
