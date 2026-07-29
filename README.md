@@ -15,6 +15,7 @@ Nie musisz być techniczny. Instalację prowadzi sam Claude — Ty odpowiadasz n
 
 - macOS z zainstalowanym Claude Code (`claude --version` coś zwraca)
 - `git` (jest w macOS po instalacji Command Line Tools)
+- opcjonalnie, pod skille dnia: dostęp do Twojego kalendarza/poczty/zadań — podpinany w trakcie instalacji przez MCP (`ANEKS-mcp-integracje.md`); bez tego skille działają w wersji okrojonej
 
 ## Instalacja — 3 kroki
 
@@ -38,6 +39,7 @@ Resztę robi Claude — pyta, tworzy pliki, testuje. Instalacja trwa 30–60 min
 | `INSTALL.md` | Claude | Główny scenariusz instalacji (moduły M1→M4) |
 | `moduly/` | Claude | Szczegółowe instrukcje modułów |
 | `szablony/` | Claude | Szablony plików mózgu |
+| `ANEKS-mcp-integracje.md` | użytkownik + Claude (lub admin) | Podpięcie usług pod skille: kalendarz, poczta, zadania (MCP) |
 | `ANEKS-sync-syncthing.md` | admin techniczny | Synchronizacja mózgu między komputerami (osobny etap, nie część instalacji) |
 
 ## Filozofia (3 zasady)

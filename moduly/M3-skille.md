@@ -43,15 +43,21 @@ Na bazie odpowiedzi **zaproponuj pasujące pozycje z katalogu** (niżej) — z j
 
 Jeśli wywiad ujawni potrzebę, której katalog nie pokrywa (np. cotygodniowy raport dla klienta) — **nie buduj skilla teraz**. Zanotuj ją jako pierwszego kandydata do `skill-candidates.md` — od tego jest `/skill-scout`, a skill zbudowany po 3 realnych wystąpieniach jest lepszy niż zgadywany na dzień 1.
 
-## Krok 3 — Dostosuj placeholdery
+## Krok 3 — Integracje (MCP) + dostosowanie placeholderów
 
-Skille z rep mają placeholdery (`{VAULT}`, `{INBOX}`, `{TWOJ_GMAIL}` itp.). Przejdź każdy zainstalowany plik i podmień na realia użytkownika:
+**Najpierw inwentarz integracji.** Skille rdzenia sięgają do usług: `/briefing` → kalendarz + poczta (+ zadania), `/inbox-review` i `/new-project` → opcjonalnie menedżer zadań. Claude Code łączy się z nimi przez MCP:
+
+1. `claude mcp list` — sprawdź, co już podpięte.
+2. Zapytaj użytkownika, czego używa (Google/Outlook? Todoist?) i czego brakuje → poprowadź konfigurację wg `ANEKS-mcp-integracje.md`. To najbardziej techniczny moment instalacji — nie spiesz się, tłumacz każdy krok; przy nietechnicznym użytkowniku ten etap może zrobić osoba techniczna zespołu później.
+3. **Sekrety (klucze API, tokeny) NIGDY do katalogu-mózgu** — mózg będzie synchronizowany; sekrety żyją w konfiguracji MCP.
+
+**Potem placeholdery.** Skille z rep mają placeholdery (`{VAULT}`, `{INBOX}`, `{TWOJ_GMAIL}` itp.). Przejdź każdy zainstalowany plik i podmień na realia użytkownika:
 
 - ścieżka mózgu/vaultu → jego `<mózg>`
-- konta pocztowe/kalendarz → te, których używa (jeśli w ogóle — sekcje nieużywane **wytnij**, nie zostawiaj martwych)
-- integracje, których nie ma (Todoist, dashboard) → wytnij lub oznacz „pomiń"
+- konta pocztowe/kalendarz → te, których używa
+- sekcje wymagające usługi, której użytkownik **nie będzie** używał → **wytnij**; usługi planowanej, ale jeszcze niepodpiętej → oznacz „pomiń — do czasu podpięcia MCP"
 
-Zasada: **skill po dostosowaniu ma nie mieć ani jednego placeholdera i ani jednej sekcji, która u tego użytkownika nie zadziała.**
+Zasada: **skill po dostosowaniu ma nie mieć ani jednego placeholdera i ani jednej sekcji, która u tego użytkownika nie zadziała.** `/briefing` z samym kalendarzem to nadal dobry briefing — lepszy okrojony i działający niż pełny i wywalający się.
 
 ## Krok 4 — Test
 
