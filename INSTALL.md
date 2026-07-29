@@ -9,6 +9,7 @@
 3. **Warstwami, nie hurtem.** Instalujesz rdzeń. Nie dokładaj własnych ulepszeń, dodatkowych plików ani rozszerzeń — nadmiar zabija adopcję.
 4. **Po każdym module test.** Nie przechodź dalej, dopóki test modułu nie przejdzie.
 5. **Wzorzec, nie treść.** Treść tożsamości i pamięci pochodzi od użytkownika — z wywiadu i migracji. Nie wymyślaj za niego.
+6. **Na końcu JEDEN sejf, zero linków na zewnątrz.** Mózg nie może linkować do plików poza swoim katalogiem — po syncu na drugą maszynę takie linki wskazują w próżnię. Treść wchodzi do środka (kopiowana) albo zostaje na zewnątrz świadomie (warsztat automatyzacji, zamrożone archiwum) — ale nigdy „na zewnątrz i podlinkowana".
 
 ## Przebieg
 

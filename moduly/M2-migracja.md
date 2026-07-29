@@ -33,8 +33,11 @@ Przejdź mapę z użytkownikiem pozycja po pozycji. On decyduje, Ty wykonujesz. 
 
 - **Dwie rozjechane pamięci / dwa CLAUDE.md** — nie wybieraj „lepszej". Porównaj treść, pokaż różnice, zaproponuj scalenie z zachowaniem obu wersji w archiwum.
 - **Działające automatyzacje (hooki, skrypty, integracje)** — domyślnie **zostaw**. Migracja mózgu nie może zepsuć działającego warsztatu.
-- **Istniejący vault/sejf z notatkami** — jeśli żywy, mózg mógł w nim zamieszkać już w M0; wtedy zawartość sejfu NIE wymaga „migracji" — mózg linkuje do jego plików (`memory/` może wskazywać notatki sejfu zamiast je kopiować). Migrujesz tylko to, co pełni rolę tożsamości/pamięci/stanu.
-- **Porzucone narzędzia** (nieużywany vault, stary dashboard) — do archiwum, ale zapytaj wprost: „tego nie używasz od X — archiwizujemy?"
+- **Istniejący vault/sejf z notatkami:**
+  - **żywy** → mózg zamieszkał w nim już w M0 (jeden sejf, bez kopiowania); w M2 tylko wpinasz tożsamość/pamięć/stan w jego strukturę;
+  - **martwy/półmartwy** → wartościowe treści **KOPIUJESZ do mózgu** (per element, z zatwierdzeniem), a stary sejf oznaczasz jako **zamrożone archiwum** (np. plik `ARCHIWUM-README.md` w środku: co to, kiedy zamrożone, co przeniesione). NIE kasujesz w dniu migracji — propozycję usunięcia składasz przy przeglądzie po 2 tygodniach, decyzja należy do użytkownika.
+  - **Nigdy nie linkuj z mózgu do plików poza mózgiem** — po syncu na drugą maszynę takie linki są martwe (zasada 6 z INSTALL.md).
+- **Porzucone narzędzia** (stary dashboard, nieużywana apka notatek) — do archiwum, ale zapytaj wprost: „tego nie używasz od X — archiwizujemy?"
 
 ## Krok 4 — Wykonanie
 
