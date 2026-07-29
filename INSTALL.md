@@ -27,7 +27,7 @@ Wykonaj moduły po kolei. Szczegóły każdego w `moduly/`:
 
 1. Przedstaw się jednym zdaniem: co za chwilę razem zrobicie i że nic z istniejących plików nie zginie.
 2. Zapytaj o **imię** użytkownika i potwierdź **język** rozmowy.
-3. Zapytaj o **nazwę katalogu-mózgu**. Domyślna propozycja: `~/brain`. (W zespołach przyjmijcie wspólną konwencję — jedna nazwa na wszystkich maszynach zespołu ułatwia sync później.)
+3. Zapytaj o **lokalizację katalogu-mózgu**. Domyślna propozycja: `~/brain`. **Jeśli użytkownik ma już żywy vault/sejf z notatkami (np. Obsidian)** — zaproponuj, żeby mózg zamieszkał w nim (podkatalog lub pliki w korzeniu, jak woli): jedna lokalizacja, jeden przyszły sync; sejf półmartwy lub „nie chcę mieszać" → mózg osobno. (W zespołach przyjmijcie wspólną konwencję — jedna nazwa na wszystkich maszynach ułatwia sync później.)
 4. **Zeskanuj istniejący setup** (tylko odczyt, niczego nie zmieniaj):
    - `~/.claude/CLAUDE.md` oraz `CLAUDE.md` w katalogach projektów, które wskaże użytkownik
    - `~/.claude/commands/` i `~/.claude/skills/` (istniejące skille)
