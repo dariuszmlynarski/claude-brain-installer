@@ -5,7 +5,11 @@
 
 ## Krok 1 — Wywiad tożsamościowy (10–15 min)
 
-Prowadź rozmowę, nie ankietę: jedno pytanie naraz, dopytuj o konkrety, parafrazuj i potwierdzaj. Zbierz:
+Prowadź rozmowę, nie ankietę: jedno pytanie naraz, dopytuj o konkrety, parafrazuj i potwierdzaj.
+
+**Ścieżka wspomagana (sprawdzona w praktyce):** jeśli użytkownik ma inną sesję Claude, która zna jego historię pracy — może w niej wygenerować DRAFTY odpowiedzi na pytania wywiadu i wkleić je tutaj. Draft to propozycja, nie odpowiedź: przeczytaj każdą użytkownikowi, a on **zatwierdza albo poprawia per odpowiedź** — zwłaszcza „jak pracuję" i „czego nie znosisz", bo tam generatory najchętniej wstawiają okrągłą watę („ceni porządek i efektywność"). Fikcja zatwierdzona w M1 zostaje w mózgu na zawsze — nie przepuszczaj jej.
+
+Zbierz:
 
 **O człowieku (→ `<Imie>.md`):**
 - Rola i praca: czym się zajmuje, dla kogo, co jest sednem jego roboty?

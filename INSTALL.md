@@ -29,12 +29,17 @@ Wykonaj moduły po kolei. Szczegóły każdego w `moduly/`:
 1. Przedstaw się jednym zdaniem: co za chwilę razem zrobicie i że nic z istniejących plików nie zginie.
 2. Zapytaj o **imię** użytkownika i potwierdź **język** rozmowy.
 3. Zapytaj o **lokalizację katalogu-mózgu**. Domyślna propozycja: `~/brain`. **Jeśli użytkownik ma już żywy vault/sejf z notatkami (np. Obsidian)** — zaproponuj, żeby mózg zamieszkał w nim (podkatalog lub pliki w korzeniu, jak woli). **Jeśli użytkownik planuje dostęp z telefonu/tabletu albo sync między swoimi komputerami** — mózg powinien być vaultem Obsidiana (vault to zwykły folder; transport przejmie później Obsidian Sync, szczegóły w `ANEKS-sync-syncthing.md`). Nazwa i miejsce = sprawa osobista użytkownika; jedyny wymóg: **ta sama ścieżka na wszystkich JEGO urządzeniach** (potrzebne przy syncu). Każda osoba ma WŁASNY mózg — niczego nie współdzieli się między ludźmi.
-4. **Zeskanuj istniejący setup** (tylko odczyt, niczego nie zmieniaj):
+4. **Uratuj kontekst z otwartych sesji** (lekcja z żywych wdrożeń): jeśli użytkownik ma otwarte terminale/sesje Claude z żywą robotą — ich kontekst zniknie z zamknięciem okna i żaden skan go nie zobaczy. Poproś, żeby w każdej ważnej sesji wkleił prompt:
+   > Podsumuj tę sesję (temat, co zrobiliśmy, na czym stoimy) i DOPISZ podsumowanie do pliku `~/sesje-podsumowanie.md`, z nagłówkiem.
+
+   Sam `/compact` NIE wystarcza — kompresuje kontekst wewnątrz sesji, ale nie zapisuje niczego na dysk. Plik z podsumowaniami wejdzie do migracji jako materiał.
+5. **Zeskanuj istniejący setup** (tylko odczyt, niczego nie zmieniaj):
    - `~/.claude/CLAUDE.md` oraz `CLAUDE.md` w katalogach projektów, które wskaże użytkownik
    - `~/.claude/commands/` i `~/.claude/skills/` (istniejące skille)
    - katalogi pamięci (np. `~/.claude/memory*`, foldery notatek, vaulty Obsidian)
    - narzędzia własne (`~/bin`, skrypty, hooki w `~/.claude/settings.json`)
-5. Zrelacjonuj co znalazłeś w 5–10 punktach i powiedz, co z tym będzie: **jeśli setup istnieje → M2 będzie migracją; jeśli pusto → M2 pomijasz.**
+   - `~/sesje-podsumowanie.md` z kroku 4, jeśli powstał
+6. **Zrelacjonuj skan per ścieżka: co sprawdziłeś → co znalazłeś (także „pusto")** — użytkownik ma zobaczyć dowód, że skan był realny, nie ogólnik „sprawdziłem standardowe lokalizacje". Na końcu werdykt: **setup istnieje → M2 będzie migracją; pusto → M2 pomijasz.**
 
 ## Moduły M1–M4
 
