@@ -55,7 +55,7 @@ Resztę robi Claude — pyta, tworzy pliki, testuje. Instalacja trwa 30–60 min
 | `moduly/` | Claude | Szczegółowe instrukcje modułów |
 | `szablony/` | Claude | Szablony plików mózgu |
 | `ANEKS-mcp-integracje.md` | użytkownik + Claude (lub admin) | Podpięcie usług pod skille: kalendarz, poczta, zadania (MCP) |
-| `ANEKS-sync-syncthing.md` | admin techniczny | Synchronizacja mózgu między komputerami (osobny etap, nie część instalacji) |
+| `ANEKS-sync-syncthing.md` | admin techniczny | Sync mózgu między urządzeniami: Obsidian Sync (komputery + iPhone/iPad) + Syncthing (ukryte pliki, etap VPS). Osobny etap, nie część instalacji |
 
 ## Filozofia (3 zasady)
 
