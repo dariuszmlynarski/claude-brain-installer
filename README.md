@@ -59,14 +59,23 @@ Resztę robi Claude — pyta, tworzy pliki, testuje. Instalacja trwa 30–60 min
 
 ## Rekomendacje — narzędzia, które przyspieszają całość
 
-Nie są częścią instalacji ani wymogiem — ale sprawdzone w codziennej pracy robią różnicę nie tylko przy AI:
+Nie są częścią instalacji ani wymogiem — ale sprawdzone w codziennej pracy robią różnicę nie tylko przy AI. Obie rzeczy instalujesz w 5 minut; dobry moment jest tuż po instalacji mózgu.
 
-| Narzędzie | Co daje | Link |
-|-----------|---------|------|
-| **VoiceInk** (Mac) | Dyktowanie zamiast pisania — mówisz, tekst wskakuje w dowolne pole, także do Claude. Rozmowa z asystentem robi się 3× szybsza; transkrypcja działa lokalnie na Twoim Macu (nic nie leci do chmury), po polsku bardzo przyzwoicie. | [tryvoiceink.com](https://tryvoiceink.com?atp=mlynek) |
-| **Raycast** (Mac) | Wyrzutnia wszystkiego pod jednym skrótem: aplikacje, pliki, schowek z historią, zarządzanie oknami, szybkie notatki. Zastępuje Spotlight i kilka osobnych aplikacji naraz; darmowy w zupełności wystarcza. | [raycast.com](https://www.raycast.com) |
+### [VoiceInk](https://tryvoiceink.com?atp=mlynek) (Mac) — dyktowanie zamiast pisania
 
-Obie rzeczy instalujesz w 5 minut i działają od razu — dobry moment jest tuż po instalacji mózgu.
+Wciskasz skrót, mówisz, tekst wskakuje w dowolne pole — także prosto do Claude.
+
+- **Mówisz szybciej, niż piszesz — dużo szybciej.** Przeciętne tempo mówienia to ~150 słów na minutę, pisania na klawiaturze ~40. Dyktując polecenia do asystenta, dajesz mu 3–4× więcej kontekstu w tym samym czasie — a im więcej kontekstu, tym lepsze odpowiedzi. To realnie zmienia sposób pracy z AI: przestajesz skracać myśli, bo „szkoda pisania".
+- **Prywatność: wszystko zostaje na Twoim Macu.** Transkrypcja działa lokalnie, offline — ani Twój głos, ani tekst nie lecą do żadnej chmury. Możesz dyktować rzeczy firmowe i klienckie bez zastanawiania się, kto to słyszy.
+- **Polski działa bardzo przyzwoicie** — łącznie z żargonem branżowym, a słownik można douczać własnymi terminami (nazwy firm, projektów, ludzi).
+
+### [Raycast](https://www.raycast.com) (Mac) — wszystko pod jednym skrótem
+
+Wyrzutnia, która zastępuje Spotlight i kilka osobnych aplikacji naraz. Darmowa wersja w zupełności wystarcza.
+
+- **Historia schowka = koniec gubienia skopiowanych rzeczy.** Wszystko, co skopiowałeś w ostatnich dniach, masz pod jednym skrótem z wyszukiwarką. Przy pracy z Claude (ciągłe kopiowanie promptów, ścieżek, fragmentów) to funkcja, z której korzysta się kilkadziesiąt razy dziennie.
+- **Zarządzanie oknami z klawiatury** — połowa ekranu na terminal z Claude, połowa na notatki/Obsidiana, jednym skrótem, bez przeciągania myszą. Idealny układ do pracy z asystentem.
+- **Wszystko startujesz z jednego miejsca:** aplikacje, pliki, snippety (gotowe kawałki tekstu — np. Twoje ulubione prompty pod dwuliterowym skrótem), kalkulator, emoji. Mniej sięgania po mysz = mniej wybijania z rytmu.
 
 ## Filozofia (3 zasady)
 
