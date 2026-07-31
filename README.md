@@ -57,6 +57,17 @@ Resztę robi Claude — pyta, tworzy pliki, testuje. Instalacja trwa 30–60 min
 | `ANEKS-mcp-integracje.md` | użytkownik + Claude (lub admin) | Podpięcie usług pod skille: kalendarz, poczta, zadania (MCP) |
 | `ANEKS-sync-syncthing.md` | admin techniczny | Sync mózgu między urządzeniami: Obsidian Sync (komputery + iPhone/iPad) + Syncthing (ukryte pliki, etap VPS). Osobny etap, nie część instalacji |
 
+## Rekomendacje — narzędzia, które przyspieszają całość
+
+Nie są częścią instalacji ani wymogiem — ale sprawdzone w codziennej pracy robią różnicę nie tylko przy AI:
+
+| Narzędzie | Co daje | Link |
+|-----------|---------|------|
+| **VoiceInk** (Mac) | Dyktowanie zamiast pisania — mówisz, tekst wskakuje w dowolne pole, także do Claude. Rozmowa z asystentem robi się 3× szybsza; transkrypcja działa lokalnie na Twoim Macu (nic nie leci do chmury), po polsku bardzo przyzwoicie. | [tryvoiceink.com](https://tryvoiceink.com?atp=mlynek) |
+| **Raycast** (Mac) | Wyrzutnia wszystkiego pod jednym skrótem: aplikacje, pliki, schowek z historią, zarządzanie oknami, szybkie notatki. Zastępuje Spotlight i kilka osobnych aplikacji naraz; darmowy w zupełności wystarcza. | [raycast.com](https://www.raycast.com) |
+
+Obie rzeczy instalujesz w 5 minut i działają od razu — dobry moment jest tuż po instalacji mózgu.
+
 ## Filozofia (3 zasady)
 
 1. **Wzorzec, nie treść** — instalator daje strukturę; treść (kim jesteś, co wiesz) jest Twoja.
