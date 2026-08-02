@@ -1,8 +1,8 @@
-# M4 — Samouczenie i samooptymalizacja
+# M5 — Samouczenie i samooptymalizacja
 
 **Efekt:** system rośnie sam — zapisuje lekcje, konsoliduje pamięć, nie puchnie.
 
-To nie osobne narzędzie, tylko **reguły wpisane do mózgu** + skille z M3, które je egzekwują.
+To nie osobne narzędzie, tylko **reguły wpisane do mózgu** + skille z M4, które je egzekwują.
 
 ## Krok 1 — Dopisz reguły pamięci do `~/.claude/CLAUDE.md`
 

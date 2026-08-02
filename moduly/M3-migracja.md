@@ -1,4 +1,4 @@
-# M2 — Migracja: „rozpoznaj burdel"
+# M3 — Migracja: „rozpoznaj burdel"
 
 **Efekt:** wszystko, co użytkownik zbudował do tej pory, jest bezpieczne i wpięte w nową strukturę. Zero strat.
 **Wejście:** skan z M0. Jeśli M0 wykazał czysty stan — pomiń cały moduł.
@@ -34,7 +34,7 @@ Przejdź mapę z użytkownikiem pozycja po pozycji. On decyduje, Ty wykonujesz. 
 - **Dwie rozjechane pamięci / dwa CLAUDE.md** — nie wybieraj „lepszej". Porównaj treść, pokaż różnice, zaproponuj scalenie z zachowaniem obu wersji w archiwum.
 - **Działające automatyzacje (hooki, skrypty, integracje)** — domyślnie **zostaw**. Migracja mózgu nie może zepsuć działającego warsztatu.
 - **Istniejący vault/sejf z notatkami:**
-  - **żywy** → mózg zamieszkał w nim już w M0 (jeden sejf, bez kopiowania); w M2 tylko wpinasz tożsamość/pamięć/stan w jego strukturę;
+  - **żywy** → mózg zamieszkał w nim już w M0 (jeden sejf, bez kopiowania); w M3 tylko wpinasz tożsamość/pamięć/stan w jego strukturę;
   - **martwy/półmartwy** → wartościowe treści **KOPIUJESZ do mózgu** (per element, z zatwierdzeniem), a stary sejf oznaczasz jako **zamrożone archiwum** (np. plik `ARCHIWUM-README.md` w środku: co to, kiedy zamrożone, co przeniesione). NIE kasujesz w dniu migracji — propozycję usunięcia składasz przy przeglądzie po 2 tygodniach, decyzja należy do użytkownika.
   - **Nigdy nie linkuj z mózgu do plików poza mózgiem** — po syncu na drugą maszynę takie linki są martwe (zasada 6 z INSTALL.md).
 - **Porzucone narzędzia** (stary dashboard, nieużywana apka notatek) — do archiwum, ale zapytaj wprost: „tego nie używasz od X — archiwizujemy?"
@@ -42,13 +42,13 @@ Przejdź mapę z użytkownikiem pozycja po pozycji. On decyduje, Ty wykonujesz. 
 ## Krok 4 — Wykonanie
 
 1. Przenieś zatwierdzone treści do struktury mózgu:
-   - fakty/notatki o sobie → `<Imie>.md` lub `memory/` (jeden fakt = jeden plik, patrz M4)
+   - fakty/notatki o sobie → `<Imie>.md` lub `memory/` (jeden fakt = jeden plik, patrz M5)
    - wiedza robocza (klienci, projekty, dostępy-opisy) → `memory/` + linia w `MEMORY.md`
    - stan bieżący → `.NOW.md`
 2. Scal CLAUDE.md-y: jeden `~/.claude/CLAUDE.md` z importami `@` (projekty mogą mieć swoje lokalne CLAUDE.md — ale bez dublowania treści globalnej).
 3. Elementy „archiwum" → `<mózg>/archiwum/` z jedną linijką w README archiwum: co i dlaczego.
 
-## Test M2
+## Test M3
 
 1. Użytkownik wskazuje 3 rzeczy, które „system wiedział przed migracją" → świeża sesja ma je wiedzieć nadal.
 2. `archiwum/stan-zastany-<data>/` zawiera kopię wszystkiego, co ruszałeś.

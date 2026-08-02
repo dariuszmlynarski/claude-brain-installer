@@ -44,7 +44,7 @@ Po zapisaniu **pokaż użytkownikowi `<Imie>.md` i `SOUL.md` w całości** — n
 
 ## Krok 3 — Podepnij mózg do Claude Code
 
-Do `~/.claude/CLAUDE.md` (utwórz, jeśli nie istnieje; jeśli istnieje — **to robota M2**, na razie tylko dopisz importy na górze):
+Do `~/.claude/CLAUDE.md` (utwórz, jeśli nie istnieje; jeśli istnieje — **to robota M3**, na razie tylko dopisz importy na górze):
 
 ```markdown
 # Kontekst ładowany na starcie sesji

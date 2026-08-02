@@ -6,22 +6,24 @@ Nie musisz być techniczny. Instalację prowadzi sam Claude — Ty odpowiadasz n
 
 ## Czym to jest — w trzech zdaniach
 
-„Mózg" to katalog zwykłych plików `.md`: **tożsamość** (kim jesteś, jak pracuje Twój asystent), **pamięć** (jeden fakt = jeden plik + indeks) i **stan bieżący** (na czym skończyłeś). Instalator to scenariusz, który Claude wykonuje na Twoim komputerze: przeprowadza wywiad, rozpoznaje i przenosi Twój dotychczasowy setup (nic nie ginie), instaluje bazowe skille i włącza mechanizmy samouczenia. Efekt sprawdzasz testem końcowym: świeża sesja odpowiada na 3 pytania kontrolne o Tobie — z plików, nie z historii rozmów.
+„Mózg" to katalog zwykłych plików `.md`: **tożsamość** (kim jesteś, jak pracuje Twój asystent), **pamięć** (jeden fakt = jeden plik + indeks), **stan bieżący** (na czym skończyłeś) i **struktura pracy** (gdzie mieszka to, co robisz). Instalator to scenariusz, który Claude wykonuje na Twoim komputerze: przeprowadza wywiad, rozpoznaje i przenosi Twój dotychczasowy setup (nic nie ginie), instaluje bazowe skille i włącza mechanizmy samouczenia. Efekt sprawdzasz testem końcowym: świeża sesja odpowiada na 3 pytania kontrolne o Tobie — z plików, nie z historii rozmów.
 
 ## Moduły — co się dzieje po kolei
 
 | Moduł | Co robi | Efekt | Czas |
 |-------|---------|-------|------|
-| **M0 — Rozpoznanie** | Claude pyta o imię, język i lokalizację mózgu, po czym skanuje istniejący setup (CLAUDE.md, skille, pamięci, narzędzia) — tylko odczyt | mapa tego, co już masz; decyzja, czy M2 będzie potrzebne | 5 min |
+| **M0 — Rozpoznanie** | Claude pyta o imię, język i lokalizację mózgu, po czym skanuje istniejący setup (CLAUDE.md, skille, pamięci, narzędzia) — tylko odczyt | mapa tego, co już masz; decyzja, czy M3 będzie potrzebne | 5 min |
 | **M1 — Onboarding** | wywiad o Tobie i o tym, jak ma pracować asystent | tożsamość: `<Imie>.md`, `SOUL.md`, zasady współpracy | 15–20 min |
-| **M2 — Migracja** | istniejący setup: najpierw pełne archiwum, potem integracja do nowej struktury — **Claude proponuje, Ty zatwierdzasz per element** | dotychczasowy dorobek w nowej strukturze, zero strat | 10–60 min |
-| **M3 — Skille** | instalacja 4 skilli rdzenia (`/briefing`, `/daily-summary`, `/memory-dream`, `/skill-scout`) + wywiad „co by Ci się przydało?" i dobór z katalogu opcjonalnego | rytm dnia i higiena pamięci działają od dnia 1 | 10–15 min |
-| **M4 — Samouczenie** | wpisanie reguł pamięci: audyt sesji, zapis lekcji, konsolidacja, higiena kontekstu | system sam proponuje, co zapamiętać, i sam sprząta | 5 min |
+| **M2 — Szkielet** | wywiad o obszary Twojego życia i pracy, potem struktura, w której mieszka robota: inbox, obszary, projekty, archiwum — **recepta z uzasadnieniem, nie dyktat** | miejsce na wszystko + reguła, której Claude sam pilnuje | 10–15 min |
+| **M3 — Migracja** | istniejący setup: najpierw pełne archiwum, potem integracja do nowej struktury — **Claude proponuje, Ty zatwierdzasz per element** | dotychczasowy dorobek w nowej strukturze, zero strat | 10–60 min |
+| **M4 — Skille** | instalacja 4 skilli rdzenia (`/briefing`, `/daily-summary`, `/memory-dream`, `/skill-scout`) + wywiad „co by Ci się przydało?" i dobór z katalogu opcjonalnego | rytm dnia i higiena pamięci działają od dnia 1 | 10–15 min |
+| **M5 — Samouczenie** | wpisanie reguł pamięci: audyt sesji, zapis lekcji, konsolidacja, higiena kontekstu | system sam proponuje, co zapamiętać, i sam sprząta | 5 min |
 | **Test końcowy** | restart sesji + 3 pytania kontrolne (kim jestem? jak pracuję? nad czym pracuję?) | odpowiedzi z plików mózgu = instalacja zaliczona | 5 min |
 
 ## Co dostajesz
 
 - **Katalog-mózg** — zwykłe pliki `.md` w jednym folderze: tożsamość, pamięć, stan bieżący.
+- **Strukturę na całe życie, nie tylko na firmę** — obszary (praca, drugi biznes, prywatne, zdrowie…), w każdym wiedza trwała, aktywne projekty, procesy i archiwum, do tego jeden inbox na wszystko, co wpada. Wzorzec PARA + GTD, podany **z uzasadnieniem każdego elementu** — możesz go przyciąć pod siebie, ale świadomie.
 - **Migrację bez strat** — jeśli już masz jakiś setup (CLAUDE.md, notatki, pamięci), instalator go rozpozna i przeniesie. **Żelazna zasada: nic nie ginie.**
 - **Bazowe skille** — otwarcie dnia (`/briefing`), zamknięcie dnia (`/daily-summary`), porządkowanie pamięci (`/memory-dream`), radar automatyzacji (`/skill-scout`) + **katalog opcjonalny dobierany wywiadem** („jakie skille by Ci się przydały?"): `/grill-me`, `/inbox-review`, `/new-project`, `/dev-compound`.
 - **Samouczenie** — system sam proponuje, co zapamiętać, i sam sprząta swoją pamięć.
@@ -51,7 +53,7 @@ Resztę robi Claude — pyta, tworzy pliki, testuje. Instalacja trwa 30–60 min
 
 | Plik | Dla kogo | Co robi |
 |------|----------|---------|
-| `INSTALL.md` | Claude | Główny scenariusz instalacji (moduły M1→M4) |
+| `INSTALL.md` | Claude | Główny scenariusz instalacji (moduły M0→M5) |
 | `moduly/` | Claude | Szczegółowe instrukcje modułów |
 | `szablony/` | Claude | Szablony plików mózgu |
 | `ANEKS-mcp-integracje.md` | użytkownik + Claude (lub admin) | Podpięcie usług pod skille: kalendarz, poczta, zadania (MCP) |

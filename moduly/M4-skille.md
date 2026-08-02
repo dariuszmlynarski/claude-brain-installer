@@ -1,4 +1,4 @@
-# M3 — Skille: rdzeń + dobór pod użytkownika
+# M4 — Skille: rdzeń + dobór pod użytkownika
 
 **Efekt:** cztery skille rdzenia działają od dnia 1 + użytkownik dostał skille dobrane do SWOJEJ pracy — nie hurtowy zestaw.
 

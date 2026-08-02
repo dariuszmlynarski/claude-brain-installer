@@ -34,4 +34,4 @@ Konkretny serwer per usługa zmienia się w czasie (ekosystem MCP żyje), dlateg
 
 ## Gdy integracji (jeszcze) nie ma
 
-Skille mają działać bez wywalania się: sekcje wymagające niepodpiętej usługi **oznacz w pliku skilla jako „pomiń — do czasu podpięcia MCP"** (M3 krok 3) albo wytnij, jeśli usługa nie będzie używana wcale. `/briefing` z samym kalendarzem to nadal dobry briefing.
+Skille mają działać bez wywalania się: sekcje wymagające niepodpiętej usługi **oznacz w pliku skilla jako „pomiń — do czasu podpięcia MCP"** (M4 krok 3) albo wytnij, jeśli usługa nie będzie używana wcale. `/briefing` z samym kalendarzem to nadal dobry briefing.

@@ -1,0 +1,45 @@
+# Struktura — gdzie co ląduje
+
+> Jedno źródło prawdy o układzie mózgu. Claude pilnuje tych zasad sam — jeśli coś ma trafić w inne miejsce, najpierw poprawiamy ten plik.
+
+## Moje obszary
+<!-- Lista obszarów użytkownika z jednym zdaniem, czego dotyczy każdy.
+     np.:
+     - `2-Firma` — moja główna działalność, klienci, sprzedaż
+     - `3-Prywatne` — dom, rodzina, sprawy urzędowe
+     - `4-Zdrowie` — trening, dieta, badania
+-->
+
+## Co gdzie ląduje
+
+| Katalog | Co trzyma | Granica |
+|---------|-----------|---------|
+| `1-Inbox/` | wszystko nowe, przed decyzją | Jedno wejście. Opróżniany regularnie, nie archiwizowany. |
+| `{Obszar}/About/` | trwała wiedza o obszarze: ludzie, narzędzia, strategia | Nie projekt, nie proces. To „czym jest ten obszar". |
+| `{Obszar}/Projekty/{X}/` | aktywne, z celem i końcem. **Każdy MUSI mieć `_PRD.md`** | Ma cel i moment, w którym się kończy. |
+| `{Obszar}/Admin/{X}/` | powtarzalne procesy, instrukcje, referencje | Test: „sięgnę po to jak po podręcznik, żeby coś wykonać?" → tak = Admin. |
+| `{Obszar}/Archiwum/{X}/` | zamknięte, bez powrotu | Trzymane dla historii. |
+| `Dziennik/RRRR-MM/` | notatki dzienne | Jedna notatka na dzień. |
+| `Backlog/` | pomysły jeszcze niezaczęte | Bez zobowiązania i bez daty. |
+| `Dashboard.md` | hub: co aktywne, co pilne | Punkt startu dnia. |
+
+## Cykl życia projektu
+
+```
+Backlog → {Obszar}/Projekty/{X}/_PRD.md → {Obszar}/Admin/{X}/   (został powtarzalny proces)
+                                        → {Obszar}/Archiwum/{X}/ (skończone albo martwe)
+```
+
+## Nazewnictwo
+<!-- Uzupełnij wg preferencji użytkownika. Domyślnie:
+     - katalogi datowane: `RRRR-MM/DD tytuł.md` — nie powtarzaj roku i miesiąca w nazwie pliku
+     - bez znaków specjalnych w nazwach katalogów
+-->
+
+## Świadome odstępstwa
+<!-- Elementy wzorca, które użytkownik odrzucił, i dlaczego — żeby Claude nie proponował ich w kółko.
+     np.: „Backlog pominięty — pomysły lądują w Inbox i są przeglądane co tydzień."
+-->
+
+## Zasada domyślna
+Mniej plików niż więcej. Powielona treść (ta sama w kilku miejscach) → jedno źródło + odnośniki.

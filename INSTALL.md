@@ -4,7 +4,7 @@
 
 ## Zasady nadrzędne (obowiązują przez całą instalację)
 
-1. **NIC nie ginie.** Zanim cokolwiek zmienisz w istniejących plikach użytkownika — pełna kopia do archiwum (M2). Kasowanie zabronione. Zawsze.
+1. **NIC nie ginie.** Zanim cokolwiek zmienisz w istniejących plikach użytkownika — pełna kopia do archiwum (M3). Kasowanie zabronione. Zawsze.
 2. **Proponujesz → człowiek zatwierdza.** Każdą decyzję o przeniesieniu/archiwizacji istniejącego elementu przedstawiasz jako propozycję z uzasadnieniem. Nie działasz po cichu.
 3. **Warstwami, nie hurtem.** Instalujesz rdzeń. Nie dokładaj własnych ulepszeń, dodatkowych plików ani rozszerzeń — nadmiar zabija adopcję.
 4. **Po każdym module test.** Nie przechodź dalej, dopóki test modułu nie przejdzie.
@@ -19,10 +19,13 @@ Wykonaj moduły po kolei. Szczegóły każdego w `moduly/`:
 |-------|------|-------|------|
 | **M0 — Rozpoznanie** | (poniżej) | wiesz, kto przed Tobą i co już ma | 5 min |
 | **M1 — Onboarding** | `moduly/M1-onboarding.md` | tożsamość: `<Imie>.md`, `SOUL.md`, zasady | 15–20 min |
-| **M2 — Migracja** | `moduly/M2-migracja.md` | istniejący setup zarchiwizowany i zintegrowany | 10–60 min |
-| **M3 — Skille** | `moduly/M3-skille.md` | 4 skille rdzenia + dobrane wywiadem z katalogu | 10–15 min |
-| **M4 — Samouczenie** | `moduly/M4-samouczenie.md` | reguły pamięci wpisane, mechanizmy aktywne | 5 min |
+| **M2 — Szkielet** | `moduly/M2-szkielet.md` | struktura pracy (obszary, projekty, inbox) + `rules/struktura.md` | 10–15 min |
+| **M3 — Migracja** | `moduly/M3-migracja.md` | istniejący setup zarchiwizowany i zintegrowany | 10–60 min |
+| **M4 — Skille** | `moduly/M4-skille.md` | 4 skille rdzenia + dobrane wywiadem z katalogu | 10–15 min |
+| **M5 — Samouczenie** | `moduly/M5-samouczenie.md` | reguły pamięci wpisane, mechanizmy aktywne | 5 min |
 | **Test końcowy** | (poniżej) | świeża sesja zdaje 3 pytania kontrolne | 5 min |
+
+> **Kolejność nie jest przypadkowa.** M2 (szkielet) stoi **przed** migracją, bo migracja musi mieć dokąd przenosić dorobek, a skille z M4 (`/inbox-review`, `/new-project`) operują na katalogach, które M2 zakłada.
 
 ## M0 — Rozpoznanie (zrób to teraz)
 
@@ -39,15 +42,16 @@ Wykonaj moduły po kolei. Szczegóły każdego w `moduly/`:
    - katalogi pamięci (np. `~/.claude/memory*`, foldery notatek, vaulty Obsidian)
    - narzędzia własne (`~/bin`, skrypty, hooki w `~/.claude/settings.json`)
    - `~/sesje-podsumowanie.md` z kroku 4, jeśli powstał
-6. **Zrelacjonuj skan per ścieżka: co sprawdziłeś → co znalazłeś (także „pusto")** — użytkownik ma zobaczyć dowód, że skan był realny, nie ogólnik „sprawdziłem standardowe lokalizacje". Na końcu werdykt: **setup istnieje → M2 będzie migracją; pusto → M2 pomijasz.**
+6. **Zrelacjonuj skan per ścieżka: co sprawdziłeś → co znalazłeś (także „pusto")** — użytkownik ma zobaczyć dowód, że skan był realny, nie ogólnik „sprawdziłem standardowe lokalizacje". Na końcu werdykt: **setup istnieje → M3 będzie migracją; pusto → M3 pomijasz.**
 
-## Moduły M1–M4
+## Moduły M1–M5
 
 Przeczytaj i wykonaj kolejno:
 - `moduly/M1-onboarding.md`
-- `moduly/M2-migracja.md` (pomiń tylko, gdy M0 wykazał czysty stan)
-- `moduly/M3-skille.md`
-- `moduly/M4-samouczenie.md`
+- `moduly/M2-szkielet.md`
+- `moduly/M3-migracja.md` (pomiń tylko, gdy M0 wykazał czysty stan)
+- `moduly/M4-skille.md`
+- `moduly/M5-samouczenie.md`
 
 ## Test końcowy
 
@@ -63,4 +67,4 @@ Przeczytaj i wykonaj kolejno:
 
 - Test nie przechodzi → sprawdź importy `@` w `~/.claude/CLAUDE.md` (literówki w ścieżkach to 90% przypadków).
 - Konflikt z istniejącym CLAUDE.md → wróć do zasady 2: pokaż różnice, zaproponuj scalenie, człowiek decyduje.
-- Cokolwiek zepsute → archiwum z M2 ma stan sprzed instalacji. Nic nie zginęło.
+- Cokolwiek zepsute → archiwum z M3 ma stan sprzed instalacji. Nic nie zginęło.
